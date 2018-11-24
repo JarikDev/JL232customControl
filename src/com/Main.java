@@ -14,7 +14,6 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         //NumberTextField numberTextField=new NumberTextField();
         CustomControl customControl=new CustomControl();
-
         Group root=new Group();
         root.getChildren().add(customControl);
         primaryStage.setScene(new Scene(root,500,500));
